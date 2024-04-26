@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title> Nidhi R Kamala</title>
+  <script src="https://kit.fontawesome.com/3b8082db9f.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+  <!--nav-->
+  <div id="header"></div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio<span>.</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"> <a class="nav-link active" aria-current="page-home" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--landing-->
+  <div class="container landing-sec">
+    <div class="row">
+      <div class="col-lg-12">
+        <h4>Product Designer</h4>
+        <h1>Hi there, <br>I'm <span>Nidhi R Kamala</span></h1>
+        <p>A constant learner for learning new skills🎯</p>
+        <div class="d-flex justify-content-start">
+          <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo">Hire me</button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Name</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Message:</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="images/Resume.pdf" download class="btn btn-outline-primary">Download CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--carousal-->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner zee 5.png" class="d-block w-100" alt="zee-banner">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/NIFT TT BANNER.png" class="d-block w-100" alt="nift-tt">
+        <div class="carousel-caption d-none d-md-block">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!--about-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/user.png" width="400px">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I am an aspiring UI/UX Designer with impeccable attention to detail. I
+            have a total of 2 years of experience, ranging from graphic design, UX
+            research, Design research, Design thinking, wireframing, UI/Visual
+            designing and prototyping.</p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web and app interfaces </li>
+              <li><span>UX research</span><br>Understanding the user needs </li>
+              <li><span>Design thinking</span><br>problem solving through creative methods</li>
+              <li><span>Wireframing</span><br>Ideating digital spaces and experience</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span> UI/UX Design, NIFT Time Table Website</span><br>Assignment work / Jan 2024 - April 2024 / 4
+                mons
+              </li>
+              <li><span> User experience Design, Kyoorius young blood award</span><br>Design contest / Feb 2024 - Mar
+                2024/ 1 mon</li>
+              <li><span> Graphic Design, Regional institute of ophthalmology</span><br>Internship / Aug 2022 - Sept 2022
+                / 2 mos</li>
+              <li><span> Graphic Design, Artemis foundation</span><br>Internship / Feb 2022 - Mar 2022 / 2 mos</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Bachelor of Design</span><br>National institute of Fashion Technology, Kannur <br>Aug 2021 - May
+                2025 </li>
+              <li><span>School</span><br>Kendriya Vidyalaya Payyanur <br>April 2009 - March 2019 </li>
+              <li>Karthika Thirunnal Girls Higher secondary school <br>April 2020 - March 2021 </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--portfolio-->
+  <div id="portfolio">
+  <div class="containter">
+    <div class="row">
+      <div class="col-lg-12">
+        <center>
+          <h1 class="portfolio">Portfolio</h1>
+        </center>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-start">
+    <div class="card" style="width: 18rem;margin-inline-end: 2;">
+      <img src="images/uiux.png" class="card-img-top" alt="uiux">
+      <div class="card-body">
+        <h5 class="card-title">UI/UX</h5>
+        <p class="card-text"><span>"Nift Time Table - case study"</span><br>"Had such an extensive hands on experience
+          with this project. Interacting with actual users and got to know a lot of good personalities and their daily
+          work routines." </p>
+        <center><a href="https://www.behance.net/gallery/196418279/UIUX-Case-Study-NIFT-Timetable-website"
+            class="btn btn-view">View</a></center>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="images/book.png" class="card-img-top" alt="Book">
+      <div class="card-body">
+        <h5 class="card-title">Publication Design</h5>
+        <p class="card-text"><span>"Beyond what we see"</span> <br> "I have to admit that this was one of those tough
+          projects. Came across a lot of new concepts and learned a bit about how different cultures carry their own
+          fashion language." </p>
+        <center><a href="https://www.behance.net/gallery/196735865/Publication-design-Beyond-what-we-see"
+            class="btn btn-view">View</a></center>
+      </div>
+
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="images/calligraphy.png" class="card-img-top" alt="calligraphy">
+      <div class="card-body">
+        <h5 class="card-title">Hand Lettering</h5>
+        <p class="card-text"><span>"From dust and back to dust"</span><br>"This was such a fun project. Got to learn
+          about vaious calligraphy tools and techniques. Huge thanks to Narayana Bhattathari sir for his valuable
+          lessons." </p>
+        <center><a href="https://www.behance.net/gallery/196745047/Calligraphy" class="btn btn-view">View</a></center>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn-seemore">See more</a>
+  </div>
+
+  <!--services-->
+
+  <div id="services">
+    <div class="container">
+      <center>
+        <h1 class="sub-title">My services</h1>
+      </center>
+      <div class="services-list">
+        <center>
+          <div>
+            <i class="fa-solid fa-display"></i>
+            <h2>UI/UX Design</h2>
+            <p>Crafting user friendly interface experiences with user centric research methods.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </center>
+        <center>
+          <div>
+            <i class="fa-solid fa-book-open-reader"></i>
+            <h2>Publication Design</h2>
+            <p>Curating an immersive reading experience through visual story telling.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </center>
+        <center>
+          <div>
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Graphic Design</h2>
+            <p>Breaking information into fun and meaningful graphics for effective communication.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </center>
+
+      </div>
+    </div>
+  </div>
+
+  <!--contact-->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>nidhimol2003@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>9605498889</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/bubble._.wrap?igsh=bWkyNWUwZnd3Y3Jl"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/nidhi-r-kamala-36456221a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.behance.net/nidhirkamala"><i class="fa-brands fa-square-behance"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <form>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn-seemore">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--scripts-->
+
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname) {
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link")
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link")
+      document.getElementById(tabname).classList.add("active-tab")
+    }
+  </script>
+</body>
+
+</html>
