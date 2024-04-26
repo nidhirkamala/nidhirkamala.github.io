@@ -252,7 +252,7 @@ margin-top: 15%;
     }
     .btn-seemore{
         display: block;
-        margin: 50px auto;
+        margin: 50px 0;
         width: fit-content;
         border: 1px solid rgb(1, 69, 96);
         padding: 14px 50px;
